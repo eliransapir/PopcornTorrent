@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/PopcornTimeTV/PopcornTorrent.git", :tag => s.version.to_s }
   s.requires_arc = true
   s.tvos.deployment_target = '9.0'
+  
+  s.vendored_libraries = "output/UniversalTVOS/*.a"
   s.public_header_files = ["source/**/*.{h}"]
   s.private_header_files = ["include/**/*.{hpp}"]
-  s.vendored_libraries = "output/UniversalTVOS/**/*.a"
-  s.preserve_paths = "output/UniversalTVOS/**/*.a"
-  s.source_files = "source/**/*.{h,mm,m}"
-  s.libraries = ["stdc++", "xml2", "libtorret"]
+  s.source_files = ["source/**/*.{h,mm,m}", "include/**/*.{hpp}"]
+  s.libraries = ["stdc++", "xml2"]
 end
