@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.vendored_libraries = "output/UniversalTVOS/**/*.a"
   s.preserve_paths = "output/UniversalTVOS/**/*.a"
   s.source_files = "source/**/*.{h,mm,m}"
-  s.libraries = ["stdc++", "xml2"]
+  s.libraries = ["stdc++", "xml2", "libtorret"]
 end
