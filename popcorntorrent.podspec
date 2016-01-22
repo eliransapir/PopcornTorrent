@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.public_header_files = ["source/**/*.{h}"]
   s.private_header_files = ["include/**/*.{hpp}"]
-  s.vendored_libraries = ["output/UniversalTVOS/libboost_filesystem.a",
-    "output/UniversalTVOS/libboost_system.a",
-    "output/UniversalTVOS/libtorrent.a"]
+  s.vendored_libraries = "output/UniversalTVOS/**/*.a"
   s.source_files = "source/**/*.{h,mm,m}"
+  s.libraries = ["stdc++", "xml2"]
 end
