@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "Popcorn torrent client for PopcornTimeTV"
   s.homepage         = "https://github.com/PopcornTimeTV/PopcornTorrent"
   s.license          = 'MIT'
-  s.author           = {}
+  s.author           = { "Popcorn" => "popcorn@time.io"}
   s.source           = { :git => "https://github.com/PopcornTimeTV/PopcornTorrent.git", :tag => s.version.to_s }
   s.requires_arc = true
   s.tvos.deployment_target = '9.0'
