@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8CC1D708F6B758F683CDCCC697D58C5A4513E37D",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7238861585C31AAF87E5ACB50ACCA63A6A1692DD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "8CC1D708F6B758F683CDCCC697D58C5A4513E37D" : 0,
+    "7238861585C31AAF87E5ACB50ACCA63A6A1692DD" : 0,
     "DA5521B4A28E40A9027AF12C036839B3D4128E2E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B678563-7F58-4BEC-AA55-23366F241C42",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "8CC1D708F6B758F683CDCCC697D58C5A4513E37D" : "libtorrent\/",
+    "7238861585C31AAF87E5ACB50ACCA63A6A1692DD" : "libtorrent\/",
     "DA5521B4A28E40A9027AF12C036839B3D4128E2E" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Libtorrent-rasterbar",
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pepibumur\/libtorrent-ios.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CC1D708F6B758F683CDCCC697D58C5A4513E37D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7238861585C31AAF87E5ACB50ACCA63A6A1692DD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pepibumur\/PopcornTimeTV.git",

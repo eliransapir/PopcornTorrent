@@ -1,42 +1,21 @@
-# Libtorrent for tvOS
+# PopcornTorrent for tvOS
 
-libtorrent-rasterbar-1.0.6 for tvOS like Xcode project with boost dependies.
+Torrent client for tvOS implemented with `libtorrent`.
+
+## Deploying a new version to CocoaPods
+
+
 
 ## Building static libraries
 
-For building library execute in terminal build.sh script, after building you can find buided universal binary (device and simulator) with bitcode support in output/Universal directory (same folder in which the script is).
+PopcornTorrent is distributed using CocoaPods and it has internal static libraries as dependencies in `Libtorrent` *(static library)*. These static libraries can be build using the `build.sh` script in the root directory:
 
-##### Additional params:
-- If you want library without bitcode support run build script with -b/--bitcode=NO|YES flag:
-    ```sh
-    sh build.sh -b=NO
-    ```
-
-- If you want library only for specefied platform run build script with -p/--platform=all|device|simulator flag:
-    ```sh
-    sh build.sh -p=device
-    ```
-
-- For cleaning buid directory run script with -c/--clean flag:
-    ```sh
-    sh build.sh -c
-    ```
-##### TvOS support:
-  Added appletvos support. For building library for tvOS run build script with platform:
-  - tvosdevice - for build only for device
-
-    ```sh
-    sh build.sh -p=tvosdevice
-    ```
-
-  - tvossimulator - for build only for tvOS simulator
-
-    ```sh
-    sh build.sh -p=tvossimulator
-    ```
-
-  - tvosall - for building univarsal(fat) library for both platform
-
-    ```sh
-    sh build.sh -p=tvosall
-    ```
+```bash
+sh build.sh -b=NO # Without bitcode support run build script with -b/--bitcode=NO|YES flag
+sh build.sh -p=device # Only for specefied platform run build script with -p/--platform=all|device|simulator
+sh build.sh -c # For cleaning buid directory run script
+sh build.sh -p=tvosdevice # Build for tvOS
+sh build.sh -p=tvosdevice # Build for tvOS (Device)
+sh build.sh -p=tvossimulator # Build for tvOS (Simulator)
+sh build.sh -p=tvosall # Build for tvOS (Simulator/Device)
+```
