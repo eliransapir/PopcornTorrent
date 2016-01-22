@@ -1,6 +1,9 @@
-# libtorrent-ios
+# Libtorrent for tvOS
 
-libtorrent-rasterbar-1.0.6 for iOS like Xcode project with boost dependies.
+libtorrent-rasterbar-1.0.6 for tvOS like Xcode project with boost dependies.
+
+## Building static libraries
+
 For building library execute in terminal build.sh script, after building you can find buided universal binary (device and simulator) with bitcode support in output/Universal directory (same folder in which the script is).
 
 ##### Additional params:
