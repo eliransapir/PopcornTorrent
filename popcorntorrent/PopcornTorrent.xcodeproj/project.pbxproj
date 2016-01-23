@@ -11,7 +11,7 @@
 		23A9683D1C5393C7007D7986 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A9683A1C5393C7007D7986 /* libboost_filesystem.a */; };
 		23A9683E1C5393C7007D7986 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A9683B1C5393C7007D7986 /* libboost_system.a */; };
 		23A9683F1C5393C7007D7986 /* libtorrent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A9683C1C5393C7007D7986 /* libtorrent.a */; };
-		23A968511C5395FF007D7986 /* PTTorrentStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A9684A1C5395FF007D7986 /* PTTorrentStreamer.h */; };
+		23A968511C5395FF007D7986 /* PTTorrentStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A9684A1C5395FF007D7986 /* PTTorrentStreamer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23A968521C5395FF007D7986 /* PTTorrentStreamer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 23A9684B1C5395FF007D7986 /* PTTorrentStreamer.mm */; };
 		23A968531C5395FF007D7986 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A9684D1C5395FF007D7986 /* Base64.h */; };
 		23A968541C5395FF007D7986 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A9684E1C5395FF007D7986 /* Base64.m */; };
