@@ -1,0 +1,18 @@
+language: objective-c
+notifications:
+  email: false
+xcode_project: SugarRecord.xcodeproj
+osx_image: xcode7.2
+before_install:
+  - curl -OlL "https://github.com/Carthage/Carthage/releases/download/0.11/Carthage.pkg"
+  - sudo installer -pkg "Carthage.pkg" -target /
+  - rm "Carthage.pkg"
+  - brew update
+install: true
+script:
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdk
+  - carthage build --no-skip-current --platform tvos
+before_script:
+  - sh build.sh -p=tvosall
