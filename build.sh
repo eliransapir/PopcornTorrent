@@ -60,6 +60,11 @@ xcodeBuildTVOS()
   fi
 }
 
+buildTVDynamic()
+{
+    xcodebuild -workspace Libtorrent-rasterbar.xcworkspace ONLY_ACTIVE_ARCH=NO SYMROOT="$pwd/output" -configuration Release ENABLE_BITCODE="$usingBitcode" -scheme PopcornTorrent clean build
+}
+
 buildFatForTVOS()
 {
   xcodeBuildTVOS appletvos
@@ -115,6 +120,8 @@ if [[ $cleanOutput == "NO" ]]; then
     xcodeBuildTVOS appletvsimulator
   elif [[ $buildPlatform == "tvosall" ]]; then
     buildFatForTVOS
+  elif [[ $buildPlatform == "tvdynamic" ]]; then
+    buildTVDynamic
   else
     buildForAllPlatform
   fi

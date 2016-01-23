@@ -2,6 +2,20 @@
 
 Torrent client for tvOS implemented with `libtorrent`.
 
+## Requirements
+
+- Xcode 7.1
+- Carthage: `brew install carthage`
+- Cocoapods: `gem install cocoapods`
+
+## Compile a new version
+
+1. Make sure you have static libraries compiled. They can be compiled with `sh build.sh -p=tvosall`
+2. Compile the dynamic framework `PopcornTorrent` with `carthage build --no-skip-current --platform tvos`
+3. Archive the framework using `carthage archive PopcornTorrent`
+4. Create a new release on [GitHub](https://github.com/PopcornTimeTV/PopcornTorrent/releases) uploading the Framework.
+5. Update the `PopcornTorrent.podspec` updating the version and linking it to the new framework version.
+
 ## Building static libraries
 
 PopcornTorrent is distributed using CocoaPods and it has internal static libraries as dependencies in `Libtorrent` *(static library)*. These static libraries can be build using the `build.sh` script in the root directory:
