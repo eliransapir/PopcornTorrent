@@ -2,6 +2,10 @@
 
 Torrent client for tvOS implemented with `libtorrent`.
 
+[![Build Status](https://travis-ci.org/PopcornTimeTV/PopcornTorrent.svg?branch=master)](https://travis-ci.org/PopcornTimeTV/PopcornTorrent)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage|CocoaPods-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![platform](https://img.shields.io/badge/Platform-tvOS-lightgrey.svg)
+
 ## Requirements
 
 - Xcode 7.1
