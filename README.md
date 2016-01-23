@@ -15,6 +15,7 @@ Torrent client for tvOS implemented with `libtorrent`.
 3. Archive the framework using `carthage archive PopcornTorrent`
 4. Create a new release on [GitHub](https://github.com/PopcornTimeTV/PopcornTorrent/releases) uploading the Framework.
 5. Update the `PopcornTorrent.podspec` updating the version and linking it to the new framework version.
+6. Push the new version to the private specs repository with: `pod repo push PopcornTimeTV PopcornTorrent.podspec  --verbose --allow-warnings`
 
 ## Building static libraries
 
