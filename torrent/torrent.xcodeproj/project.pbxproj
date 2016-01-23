@@ -128,8 +128,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		233C750F1C52267F0023C154 /* DynamicTorrentTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicTorrentTV.h; sourceTree = "<group>"; };
-		233C75111C52267F0023C154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233C759F1C522BCB0023C154 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = "../boost_filesystem/build/Debug-iphoneos/libboost_filesystem.a"; sourceTree = "<group>"; };
 		233C75A01C522BCB0023C154 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = "../boost_system/build/Debug-iphoneos/libboost_system.a"; sourceTree = "<group>"; };
 		577CF1401BEA11C400AA21D6 /* libtorrent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtorrent.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,21 +257,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		233C750E1C52267F0023C154 /* DynamicTorrentTV */ = {
-			isa = PBXGroup;
-			children = (
-				233C750F1C52267F0023C154 /* DynamicTorrentTV.h */,
-				233C75111C52267F0023C154 /* Info.plist */,
-			);
-			path = DynamicTorrentTV;
-			sourceTree = "<group>";
-		};
 		577CF1371BEA11C400AA21D6 = {
 			isa = PBXGroup;
 			children = (
 				577CF2441BEA144100AA21D6 /* depends */,
 				577CF1421BEA11C400AA21D6 /* torrent */,
-				233C750E1C52267F0023C154 /* DynamicTorrentTV */,
 				577CF1411BEA11C400AA21D6 /* Products */,
 			);
 			sourceTree = "<group>";
